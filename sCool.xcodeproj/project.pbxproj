@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		484D66E32819CAA50025A5FC /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484D66E22819CAA50025A5FC /* UIButton+Extensions.swift */; };
+		484D66E72819DBB80025A5FC /* SoftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484D66E62819DBB80025A5FC /* SoftButton.swift */; };
 		4881EE87280E269B004F5493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881EE86280E269B004F5493 /* AppDelegate.swift */; };
 		4881EE89280E269B004F5493 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881EE88280E269B004F5493 /* SceneDelegate.swift */; };
 		4881EE8B280E269B004F5493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881EE8A280E269B004F5493 /* ViewController.swift */; };
 		4881EE8E280E269B004F5493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4881EE8C280E269B004F5493 /* Main.storyboard */; };
 		4881EE90280E269E004F5493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4881EE8F280E269E004F5493 /* Assets.xcassets */; };
 		4881EE93280E269E004F5493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4881EE91280E269E004F5493 /* LaunchScreen.storyboard */; };
+		48F03742281B03A20019ACD1 /* ColabTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F03741281B03A10019ACD1 /* ColabTableViewController.swift */; };
+		48F03745281B10640019ACD1 /* Colaborador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F03744281B10640019ACD1 /* Colaborador.swift */; };
+		48F03747281B13600019ACD1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F03746281B13600019ACD1 /* Model.swift */; };
+		48F03749281B151B0019ACD1 /* ColaboradorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F03748281B151B0019ACD1 /* ColaboradorTableViewCell.swift */; };
+		48F0374B281B2CCE0019ACD1 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0374A281B2CCE0019ACD1 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		484D66E22819CAA50025A5FC /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		484D66E62819DBB80025A5FC /* SoftButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoftButton.swift; path = ../../../../Downloads/SoftButton.swift; sourceTree = "<group>"; };
 		4881EE83280E269B004F5493 /* sCool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sCool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4881EE86280E269B004F5493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4881EE88280E269B004F5493 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		4881EE8F280E269E004F5493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4881EE92280E269E004F5493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4881EE94280E269E004F5493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F03741281B03A10019ACD1 /* ColabTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColabTableViewController.swift; sourceTree = "<group>"; };
+		48F03744281B10640019ACD1 /* Colaborador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colaborador.swift; sourceTree = "<group>"; };
+		48F03746281B13600019ACD1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		48F03748281B151B0019ACD1 /* ColaboradorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColaboradorTableViewCell.swift; sourceTree = "<group>"; };
+		48F0374A281B2CCE0019ACD1 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,13 @@
 				4881EE8F280E269E004F5493 /* Assets.xcassets */,
 				4881EE91280E269E004F5493 /* LaunchScreen.storyboard */,
 				4881EE94280E269E004F5493 /* Info.plist */,
+				484D66E22819CAA50025A5FC /* UIButton+Extensions.swift */,
+				484D66E62819DBB80025A5FC /* SoftButton.swift */,
+				48F03741281B03A10019ACD1 /* ColabTableViewController.swift */,
+				48F03744281B10640019ACD1 /* Colaborador.swift */,
+				48F03746281B13600019ACD1 /* Model.swift */,
+				48F03748281B151B0019ACD1 /* ColaboradorTableViewCell.swift */,
+				48F0374A281B2CCE0019ACD1 /* AddViewController.swift */,
 			);
 			path = sCool;
 			sourceTree = "<group>";
@@ -138,9 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F0374B281B2CCE0019ACD1 /* AddViewController.swift in Sources */,
 				4881EE8B280E269B004F5493 /* ViewController.swift in Sources */,
+				48F03745281B10640019ACD1 /* Colaborador.swift in Sources */,
 				4881EE87280E269B004F5493 /* AppDelegate.swift in Sources */,
+				484D66E72819DBB80025A5FC /* SoftButton.swift in Sources */,
+				48F03742281B03A20019ACD1 /* ColabTableViewController.swift in Sources */,
+				484D66E32819CAA50025A5FC /* UIButton+Extensions.swift in Sources */,
+				48F03749281B151B0019ACD1 /* ColaboradorTableViewCell.swift in Sources */,
 				4881EE89280E269B004F5493 /* SceneDelegate.swift in Sources */,
+				48F03747281B13600019ACD1 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

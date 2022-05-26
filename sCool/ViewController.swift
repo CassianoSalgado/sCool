@@ -9,11 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var buttonColab: SoftButton!
+    @IBOutlet weak var buttonFinan: SoftButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+//        buttonColab.setupButtons()
+//        buttonFinan.setupButtons()
+        self.navigationController?.isNavigationBarHidden = true
+        buttonColab.makeNeuromorphic(cornerRadius: buttonColab.bounds.height/2, superView: self.view)
+        buttonFinan.makeNeuromorphic(cornerRadius: buttonFinan.bounds.height/2, superView: self.view)
     }
-
-
 }
 
